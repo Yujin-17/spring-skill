@@ -28,8 +28,6 @@ public class ProductController {
     }
 
 
-
-
     // 관심 상품 조회하기
     @GetMapping("/products")
     public Page<Product> getProducts(

@@ -31,8 +31,7 @@ public class User {
     @Enumerated(value = EnumType.STRING)
     private UserRoleEnum role;
 
-    @OneToMany
-    List<Folder> folders = new ArrayList<>();
+
 
     public User(String username, String password, String email, UserRoleEnum role) {
         this.username = username;
